@@ -32,7 +32,7 @@ passportConfig();
 connect();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'http://43.203.126.192',
   credentials: true
 }));
 app.use(morgan('dev'));
